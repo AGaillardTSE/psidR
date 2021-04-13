@@ -69,7 +69,7 @@ makeids <- function(){
 			     			  "ER34703")
 						  
 	# numeric code for "i am the head"
-	id.list$ind.head.num <- c(rep(1,15),rep(10,25))
+	id.list$ind.head.num <- c(rep(1,15),rep(11,25))
 
 	id.list$fam.interview <- c("V3"      , "V442"    , "V1102"   , "V1802"   , "V2402"    , "V3002" ,
 							   "V3402"   , "V3802"   , "V4302"   , "V5202"   , "V5702"    ,
@@ -78,7 +78,7 @@ makeids <- function(){
 							   "V16302"  , "V17702"  , "V19002"  , "V20302"  , "V21602"   ,
 							   "ER2002"  , "ER5002"  , "ER7002"  , "ER10002" , "ER13002"  ,
 							   "ER17002" , "ER21002" , "ER25002" , "ER36002" , "ER42002"  , 
-							   "ER47302" , "ER53002" , "ER60002" , "ER66002","ER72002")
+							   "ER47302" , "ER53002" , "ER60002" , "ER66002" , "ER72002")
 	id.list$stratum <- rep("ER31996",nrow(id.list))
 	setkey(id.list,year)
 	return(id.list)
