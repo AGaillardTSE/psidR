@@ -69,7 +69,7 @@ makeids <- function(){
 			     			  "ER34703")
 						  
 	# numeric code for "i am the head"
-	id.list$ind.head.num <- c(rep(1,15),rep(11,25))
+	id.list$ind.head.num <- c(rep(1,15),rep(10,26))
 
 	id.list$fam.interview <- c("V3"      , "V442"    , "V1102"   , "V1802"   , "V2402"    , "V3002" ,
 							   "V3402"   , "V3802"   , "V4302"   , "V5202"   , "V5702"    ,
